@@ -1138,6 +1138,12 @@ html[xmlns] .flexslider .slides {
 * html .flexslider .slides {
   height: 1%;
 }
+.flexslider .slides img.first_img_slide{
+  height: 100%;
+  width: 74%;
+  transform: translateY(-1px);
+  margin: auto;
+}
 .no-js .flexslider .slides > li:first-child {
   display: block;
 }
@@ -1345,17 +1351,26 @@ html[xmlns] .flexslider .slides {
 .flex-caption1 h2.caption-subheadline {
   font-weight: 700;
   font-family: "montserrat";
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 12px;
 }
 .flex-caption1 .caption-list {
   margin-bottom: 25px;
 }
 .flex-caption1 p {
+  display: flex;
   font-weight: 400;
   font-family: "montserrat";
   font-size: 19px;
   margin-bottom: 12px;
+  align-items: baseline;
+}
+.flex-caption1 .caption-list p a{
+  color: #fff;
+  transition: all .5s;
+}
+.flex-caption1 .caption-list p a:hover{
+  color: #c0392b;
 }
 .flex-caption1 i {
   color: #c0392b;
@@ -1799,6 +1814,8 @@ a.button1:hover i {
   width: 33.33%;
   float: left;
   background: #2c3e50;
+  display: flex;
+  align-items: center;
 }
 .main-boxes .one-box2 .one-box2-inner {
   width: 100%;
@@ -1809,7 +1826,7 @@ a.button1:hover i {
 .main-boxes .one-box2 h2 {
   display: inline-block;
   font-family: "domine";
-  font-size: 36px;
+  font-size: 33px;
   font-weight: 700;
   margin-bottom: 19px;
   padding-right: 6px;
@@ -2305,6 +2322,7 @@ a.button1:hover i {
 }
 .socialicons-big .socialicons {
   text-align: center;
+  margin-bottom: 0;
 }
 .socialicons-big .socialicons li {
   display: inline-block;
@@ -2329,7 +2347,7 @@ a.button1:hover i {
   padding-top: 11px;
   margin-bottom: 6px;
   color: #ecf0f1;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   -webkit-transition: border 0.7s ease;
   -moz-transition: border 0.7s ease;
   -o-transition: border 0.7s ease;
