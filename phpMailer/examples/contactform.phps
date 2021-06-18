@@ -51,7 +51,7 @@ EOT;
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hy">
 <head>
     <meta charset="UTF-8">
     <title>Contact form</title>
